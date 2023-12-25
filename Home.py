@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="ccs code web App",
+    page_icon=":shark:",
+)
 
 st.title(':rainbow[CCS Equations Site]')
 st.header('Site Developed by: Mostafa Samir-Mahmoud Elseginy')
